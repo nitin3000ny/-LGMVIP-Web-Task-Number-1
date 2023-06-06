@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="list-container flex">
+        <div class="list-create">
+
+            <input type="text" id="task-name" placeholder="Enter The Task"> <button id="task-creation">Create</button>
+
+        </div>
+        <div class="list-card flex" id="list-create">
+
+
+        </div>
+
+    </div>
+    <script src="script.js"></script>
+    <template id="task">
+        <div class="task flex">
+            <p class="small-bold-text">This is dummy task1</p> <button id="delete" class="delete-button">
+                delete</button>
+        </div>
+    </template>
+</body>
+
+</html>
